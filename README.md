@@ -11,21 +11,21 @@
 - [Apps for GNOME](#apps-for-gnome)
 - [Audio](#audio)
   - [Audio Players](#audio-players)
-    - [Music Players](#music-players)
-    - [Audio Streaming Service Clients](#audio-streaming-service-clients)
-    - [MPD Clients](#mpd-clients)
-    - [Podcasts](#podcasts)
-    - [Audiobooks](#audiobooks)
-    - [Radio](#radio)
-    - [Transcription](#transcription)
     - [Ambient Sounds](#ambient-sounds)
-  - [Audio Workstations (DAWs)](#audio-workstations-daws)
+    - [Audio Streaming Service Clients](#audio-streaming-service-clients)
+    - [Audiobooks](#audiobooks)
+    - [MPD Clients](#mpd-clients)    
+    - [Music Players](#music-players)
+    - [Podcasts](#podcasts)
+    - [Radio](#radio)
+    - [Soundboards](#soundboards)
+  - [Audio Editors](#audio-editors)
+    - [Audio Workstations (DAWs)](#audio-workstations-daws)
   - [Audio Tools](#audio-tools)
 - [Video](#video)
   - [Video Players](#video-players)
   - [Live Stream Viewers](#live-stream-viewers)
   - [Video Editors](#video-editors)
-  - [Subtitle Editors](#subtitle-editors)
   - [Screen Recorders](#screen-recorders)
   - [Video Tools](#video-tools)
 - [Graphics](#graphics)
@@ -33,10 +33,9 @@
   - [ASCII/Pixel Art](#asciipixel-art)
   - [Image Viewers](#image-viewers)
   - [Raster Graphics](#raster-graphics)
-    - [Drawing & Editing](#drawing--editing)
-    - [Photography](#photography)
-    - [Optimizers/Compressors](#optimizerscompressors)
-    - [Upscalers](#upscalers)
+  - [Drawing & Editing](#drawing--editing)
+  - [Photography](#photography)
+  - [Optimizers/Compressors](#optimizerscompressors)
   - [Technical Graphics](#technical-graphics)
   - [Vector & Fonts](#vector--fonts)
 - [Multimedia](#multimedia)
@@ -53,7 +52,6 @@
   - [Proxy](#proxy)
   - [Remote Desktop](#remote-desktop)
   - [Social Media Clients](#social-media-clients)
-    - [Social Graveyard](#social-graveyard)
   - [Specialized Web Browsers / Wrappers](#specialized-web-browsers--wrappers)
   - [VPN](#vpn)
   - [Web Browsers](#web-browsers)
@@ -130,6 +128,25 @@ this list aims to be broader and include apps from various other ecosystems in v
 
 ### Audio Players
 
+#### Ambient Sounds
+
+- [Blanket](https://apps.gnome.org/Blanket) - Ambient sound player/mixer with preset management and MPRIS integration `#python` `#gtk4` `#libadwaita` `#gnome`.
+
+#### Audio Streaming Service Clients
+
+- [High Tide](https://github.com/Nokse22/high-tide) - Tidal streaming client `#python` `#gtk4` `#libadwaita`.
+- [Spot](https://github.com/xou816/spot) - Spotify (premium) client for the GNOME desktop with MPRIS integration based on [librespot](https://github.com/librespot-org/librespot) `#rust` `#gtk4` `#libadwaita`.
+- [Sublime Music](https://sublimemusic.app) - Client for Subsonic-compatible (Subsonic, Airsonic, Revel, Gonic, Navidrome, Ampache, \*sonic) personal streaming servers `#python` `#gtk3`.
+
+#### Audiobooks
+
+- [Cozy](https://cozy.sh) - Audiobook player with offline library management and MPRIS integration `#python` `#gtk4` `#libadwaita`.
+
+#### MPD Clients
+
+- [Mpdevil](https://github.com/SoongNoonien/mpdevil) - MPD music browser with MPRIS interface `#python` `#gtk4` `#libadwaita`.
+- [Sonata](https://github.com/multani/sonata) - MPD client with tag editor and audio scrobbling support, currently looking for a new maintainer `#python` `#gtk3`.
+
 #### Music Players
 
 - [Amberol](https://apps.gnome.org/Amberol) - Simple music player well integrated with GNOME `#rust` `#gtk4` `#libadwaita` `#gnome`.
@@ -143,28 +160,14 @@ this list aims to be broader and include apps from various other ecosystems in v
 - [Monophony](https://gitlab.com/zehkira/monophony) - Application for streaming music from YouTube `#python` `#gtk4` `#libadwaita`.
 - [Muzika](https://github.com/vixalien/muzika) - Music player with customizable home screen and Google Music integration `#gjs` `#gtk4` `#libadwaita`.
 - [netease-cloud-music-gtk](https://github.com/gmg137/netease-cloud-music-gtk) - Audio player for the Netease Cloud Music `#rust` `#gtk4` `#libadwaita`.
+- [Recordbox](https://codeberg.org/edestcroix/Recordbox/) - A relatively simple, opinionated music player. Written in Rust so my inefficient code goes just that much faster.
 - [Resonance](https://github.com/nate-xyz/resonance) - Music player with MPRIS support, Discord Rich presence and Last.fm scrobbling `#rust` `#python` `#gtk4` `#libadwaita`.
 - [Rhythmbox](https://gitlab.gnome.org/GNOME/rhythmbox) - Music management application designed to work well under the GNOME desktop supporting network shares, podcasts, online radio, portable devices (including iPhones) and internet music services such as Last.fm and Magnatune `#c` `#gtk3`. `#gnome`.
-
-#### Audio Streaming Service Clients
-
-- [High Tide](https://github.com/Nokse22/high-tide) - Tidal streaming client `#python` `#gtk4` `#libadwaita`.
-- [Spot](https://github.com/xou816/spot) - Spotify (premium) client for the GNOME desktop with MPRIS integration based on [librespot](https://github.com/librespot-org/librespot) `#rust` `#gtk4` `#libadwaita`.
-- [Sublime Music](https://sublimemusic.app) - Client for Subsonic-compatible (Subsonic, Airsonic, Revel, Gonic, Navidrome, Ampache, \*sonic) personal streaming servers `#python` `#gtk3`.
-
-#### MPD Clients
-
-- [Mpdevil](https://github.com/SoongNoonien/mpdevil) - MPD music browser with MPRIS interface `#python` `#gtk4` `#libadwaita`.
-- [Sonata](https://github.com/multani/sonata) - MPD client with tag editor and audio scrobbling support, currently looking for a new maintainer `#python` `#gtk3`.
 
 #### Podcasts
 
 - [GNOME Podcasts](https://apps.gnome.org/Podcasts) - (ex Hammond) Official GNOME Podcast client `#rust` `#gtk4` `#libadwaita` `#gnome`.
 - [Vocal](https://vocalproject.net) - Podcast application with iTunes Store integration and smart library management `#vala` `#gtk4` `#libadwaita`.
-
-#### Audiobooks
-
-- [Cozy](https://cozy.sh) - Audiobook player with offline library management and MPRIS integration `#python` `#gtk4` `#libadwaita`.
 
 #### Radio
 
@@ -173,19 +176,13 @@ this list aims to be broader and include apps from various other ecosystems in v
 - [radiotray-lite](https://github.com/thekvs/radiotray-lite) - Online radio player with minimal interface that runs on the system tray `#c++` `#gtk3`.
 - [Shortwave](https://apps.gnome.org/Shortwave) - Internet radio player providing access to the community radio station database `#rust` `#gtk4` `#libadwaita` `#gnome`. 
 
-#### Transcription
-
-- [Parlatype](https://github.com/gkarsay/parlatype) - Minimal audio player for manual speech transcription `#c` `#gtk4` `#libadwaita`.
-
-#### Ambient Sounds
-
-- [Blanket](https://apps.gnome.org/Blanket) - Ambient sound player/mixer with preset management and MPRIS integration `#python` `#gtk4` `#libadwaita` `#gnome`.
-
 #### Soundboards
 
 - [Zap](https://gitlab.com/rmnvgr/zap) - Sound effects soundboard and collection manager `#gjs` `#gtk4` `#libadwaita`.
 
-### Audio Workstations (DAWs)
+### Audio Editors
+
+#### Audio Workstations (DAWs)
 
 - [zrythm](https://github.com/zrythm/zrythm) - DAW offering streamlined editing workflows with automation capabilities, chord assistance and support for plugins `#c++` `#gtk4` `#libadwaita`.
 
@@ -200,6 +197,7 @@ this list aims to be broader and include apps from various other ecosystems in v
 - [Lyrebird](https://github.com/lyrebird-voice-changer/lyrebird) - Voice changer based on SoX `#python` `#gtk3`.
 - [Mousai](https://apps.gnome.org/ru/Mousai) - Song identifier based on [AudD](https://audd.io) with MPRIS support `#rust` `#gtk4` `#libadwaita` `#gnome`.
 - [Myxer](https://github.com/VixenUtils/Myxer) - PulseAudio volume mixer `#rust` `#gtk3`.
+- [Parlatype](https://github.com/gkarsay/parlatype) - Minimal audio player for manual speech transcription `#c` `#gtk4` `#libadwaita`.
 - [pwvucontrol](https://github.com/saivert/pwvucontrol) - PipeWire volume mixer `#rust` `#gtk4` `#libadwaita`.
 - [Reco](https://github.com/ryonakano/reco) - Audio recorder `#vala` `#gtk4` `#granite` `#libryokucha`.
 - [Simple Wireplumber GUI](https://github.com/dyegoaurelio/simple-wireplumber-gui) - WirePlumber (PipeWire session manager) GUI to rename devices and show properties. `#python` `#gtk4` `#libadwaita`.
@@ -219,7 +217,7 @@ this list aims to be broader and include apps from various other ecosystems in v
 - [Movie Monad](https://lettier.github.io/movie-monad) - Simple video player powered by GStreamer `#haskell` `#gtk3`.
 - [Showtime](https://gitlab.gnome.org/GNOME/Incubator/showtime) - Distraction-free video player powered by GStreamer `#python` `#gtk4` `#libadwaita`.
 
-### Live Stream Viewers
+#### Live Stream Viewers
 
 - [Multiplex](https://github.com/pojntfx/multiplex) - Application to stream and watch torrents together, providing an experience similar to Apple's SharePlay and Amazon's Prime Video Watch Party `#go` `#gtk4` `#libadwaita`.
 
@@ -230,11 +228,6 @@ this list aims to be broader and include apps from various other ecosystems in v
 - [Pitivi](http://www.pitivi.org) - Video editor based on GStreamer Editor Services `#python` `#gtk3`.
 - [Video Trimmer](https://apps.gnome.org/VideoTrimmer) - Application to cut out fragments of a video without re-encoding and reducing video quality `#rust` `#gtk4` `#libadwaita`.
 
-### Subtitle Editors
-
-- [Gaupol](https://otsaloma.io/gaupol) - Editor for text-based subtitle files with built-in video player `#python` `#gtk3`.
-- [Subtitle Editor](https://kitone.github.io/subtitleeditor) - Subtitle editor with built-in video player and text correction features `#c++` `#gtk3`.
-
 ### Screen Recorders
 
 - [Kooha](https://github.com/SeaDve/Kooha) - Distraction-free screen recorder `#rust` `#gtk4` `#libadwaita`.
@@ -243,9 +236,11 @@ this list aims to be broader and include apps from various other ecosystems in v
 ### Video Tools
 
 - [Aviator](https://github.com/gianni-rosato/aviator) - Utility for encoding with SVT-AV1 & Opus `#python` `#gtk4` `#libadwaita`.
+- [Gaupol](https://otsaloma.io/gaupol) - Editor for text-based subtitle files with built-in video player `#python` `#gtk3`.
 - [HandBrake](https://handbrake.fr) - Cross-platform video convertor that supports nearly any format `#c` `#gtk3`.
 - [Identity](https://apps.gnome.org/Identity) - Program for comparing multiple versions of an image or video `#rust` `#gtk4` `#libadwaita` `#gnome`.
 - [media-toc](https://github.com/fengalin/media-toc) - Application to build a table of contents from a media or to split a media file into chapters `#rust` `#gtk3`.
+- [Subtitle Editor](https://kitone.github.io/subtitleeditor) - Subtitle editor with built-in video player and text correction features `#c++` `#gtk3`.
 
 ## Graphics
 
@@ -297,16 +292,13 @@ this list aims to be broader and include apps from various other ecosystems in v
 
 - [Curtail](https://apps.gnome.org/Curtail) - Image compressor with support for PNG, JPEG, WebP and SVG images `#python` `#gtk4` `#libadwaita` `#gnome`.
 - [Refract](https://github.com/Blobfolio/refract) - _Guided_ image optimization for JPEGs and PNGs producing WebP, AVIF and JPEG XL clones `#rust` `#gtk3`.
+- [Upscaler](https://gitlab.com/TheEvilSkeleton/Upscaler) - Image upscaler based on [Real-ESRGAN ncnn Vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan) `#python` `#gtk4` `#libadwaita`.
 
 #### Photography
 
 - [Darktable](https://www.darktable.org) - Photography workflow application and raw developer `#c` `#gtk3`.
 - [RawTherapee](http://rawtherapee.com) - Raw image processing program `#c++` `#gtk3`.
 - [Shotwell](https://gitlab.gnome.org/GNOME/shotwell) - Personal photo manager with editing features `#vala` `#gtk4` `#gnome`.
-
-#### Upscalers
-
-- [Upscaler](https://gitlab.com/TheEvilSkeleton/Upscaler) - Image upscaler based on [Real-ESRGAN ncnn Vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan) `#python` `#gtk4` `#libadwaita`.
 
 ### Technical Graphics
 
@@ -339,10 +331,6 @@ this list aims to be broader and include apps from various other ecosystems in v
 
 - [Gydl](https://github.com/JannikHv/gydl) - GUI wrapper around [youtube-dl](https://github.com/ytdl-org/youtube-dl) `#python` `#gtk3`.
 - [Parabolic](https://github.com/NickvisionApps/Parabolic) - [yt-dlp](https://github.com/yt-dlp/yt-dlp) graphical fronted `#csharp` `#gtk4` `#libadwaita`.
-
-### Media Encoders
-
-- [Selene](https://github.com/teejee2008/selene) - Audio/video converter for audio and videos files that can encode them to popular output formats like MKV and MP4 `#vala`.
 
 ### Media Servers
 
@@ -417,16 +405,9 @@ this list aims to be broader and include apps from various other ecosystems in v
 
 ### Social Media Clients
 
-- [Tuba](https://apps.gnome.org/Tuba) - Mastodon client, fork of Tootle `#vala` `#gtk4` `#libadwaita` `#gnome`.
+- [Giara](https://gitlab.gnome.org/World/giara) - Used to be a Reddit client `#python` `#gtk4` `#libadwaita`.
 - [Social](https://gitlab.gnome.org/World/Social) - Mastodon and Pleroma client `#rust` `#gtk4`.
-
-#### Social Graveyard
-
-Clients for commercial social platforms that had their API access cut off in a wave of [enshittification](https://pluralistic.net/2023/01/21/potemkin-ai).
-
-- [Giara](https://gitlab.gnome.org/World/giara) - Used to be a Reddit client (not officially deprecated yet) `#python` `#gtk4` `#libadwaita`.
-- [Headlines](https://gitlab.com/caveman250/Headlines) - Used to be a Reddit client `#c++` `#gtk4` `#libadwaita`.
-- [NewCaw](https://github.com/CodedOre/NewCaw) - Used to be a Twitter client, rewrite to Mastodon API abandoned `#vala`.
+- [Tuba](https://apps.gnome.org/Tuba) - Mastodon client, fork of Tootle `#vala` `#gtk4` `#libadwaita` `#gnome`.
 
 ### Specialized Web Browsers / Wrappers
 
@@ -444,10 +425,10 @@ Clients for commercial social platforms that had their API access cut off in a w
 ### VPN
 
 - [Haguichi](https://haguichi.net) - Graphical fronted for Hamachi `#vala` `#gtk4` `#libadwaita`.
+- [Trayscale](https://github.com/DeedleFake/trayscale) - An unofficial GUI wrapper around the Tailscale CLI client. `#go` `#gtk4` `#libadwaita`.
 
 ### Web Browsers
 
-- [Eolie](https://gitlab.gnome.org/World/eolie) - Web browser for the GNOME desktop with Firefox Sync support `#python` `#gtk3` `#libhandy`.
 - [GNOME Web (Epiphany)](https://apps.gnome.org/Epiphany) - Web browser for the GNOME desktop based on the [WebKit] endering engine `#c`  `#gtk4` `#libadwaita` `#gnome`.
 - [luakit](https://luakit.github.io) - Highly configurable browser based on the [WebKit] engine and extensible with Lua `#c` `#gtk3` `#lua`.
 
@@ -497,12 +478,18 @@ Clients for commercial social platforms that had their API access cut off in a w
 - [Evince](https://apps.gnome.org/Evince) - Document viewer for the GNOME desktop with support for PDF, Postscript, DjVu, comics etc. and SyncTex support with gedit `#c` `#gtk3` `#libhandy` `#gnome`.
 - [Papers](https://apps.gnome.org/en/Papers) - Document viewer for the GNOME desktop (GTK 4 fork of Evince) with support for PDF, Postscript, DjVu, EPS, XPS and comics archives `#c` `#gtk4` `#libadwaita` `#gnome`.
 
+### Journaling
+
+- [Journaler](https://github.com/phase1geo/journaler) - Journaling application for elementary OS `#vala` `#gtk4` `#granite`.
+- [RedNotebook](https://rednotebook.sourceforge.io) - Desktop journal application that lets you format, tag and search your entries `#python` `#gtk3`.
+
 ### Note-taking
 
 - [Folio](https://github.com/toolstack/Folio) - Markdown note-taking application with GNOME desktop integration (Paper fork with additional features) `#vala` `#gtk4` `#libadwaita`.
 - [GNOME Notes](https://gitlab.gnome.org/GNOME/gnome-notes) - Simple note editor for the GNOME desktop, also known as Bijiben `#c` `#gtk4` `#libadwaita` `#gnome`.
 - [Gnote](https://gitlab.gnome.org/GNOME/gnote) - Note-taking application for the GNOME desktop started as a Tomboy port `#c++` `#gtk4` `#libadwaita` `#gnome`.
 - [Iridium](https://github.com/matze/iridium) - [Standard Notes](https://standardnotes.org) local-first client `#rust` `#gtk3`.
+- [Iotas](https://gitlab.gnome.org/World/iotas) - Simple Markdown note-taking application with Nextcloud Notes integration `#python` `#gtk4` `#libadwaita`.
 - [Notejot](https://github.com/lainsce/notejot) - Stupidly simple notes application `#vala` `#gtk4` `#libadwaita`.
 - [Notekit](https://github.com/blackhole89/notekit) - Hierarchical Markdown note-taking application with tablet support `#c++` `#gtk3`.
 - [Notes](https://github.com/Blquinn/notes) - Note-taking application for the GNOME desktop with notebook based categorization, trash and dark theme `#vala` `#gtk4` `#libadwaita`.
@@ -511,16 +498,9 @@ Clients for commercial social platforms that had their API access cut off in a w
 - [Notorious](https://gitlab.gnome.org/GabMus/notorious) - Keyboard-centric notes application `#python` `#gtk3` `#libhandy`.
 - [Outliner](https://github.com/phase1geo/outliner) - Outlining application for elementary OS `#vala` `#gtk3` `#granite`.
 - [Paper](https://gitlab.com/posidon_software/paper) - Markdown note-taking application with GNOME desktop integration `#vala` `#gtk4` `#libadwaita`.
-- [Iotas](https://gitlab.gnome.org/World/iotas) - Simple Markdown note-taking application with Nextcloud Notes integration `#python` `#gtk4` `#libadwaita`.
 - [Rnote](https://github.com/flxzt/rnote) - Vector-based drawing app for sketching, handwritten notes and to annotate documents and pictures with pressure-sensitive stylus input support `#rust` `#gtk4` `#libadwaita`.
 - [Xournal++](https://xournalpp.github.io) - Cross-platform handwriting note-taking software with PDF annotation support and support for pen input form devices such as Wacom tablets `#c++` `#gtk3`.
 - [Zim](https://github.com/zim-desktop-wiki/zim-desktop-wiki) - Text editor used to maintain a collection of wiki pages `#python` `#gtk3`.
-
-
-### Journaling
-
-- [Journaler](https://github.com/phase1geo/journaler) - Journaling application for elementary OS `#vala` `#gtk4` `#granite`.
-- [RedNotebook](https://rednotebook.sourceforge.io) - Desktop journal application that lets you format, tag and search your entries `#python` `#gtk3`.
 
 ### OCR
 
@@ -552,13 +532,13 @@ Clients for commercial social platforms that had their API access cut off in a w
 
 - [Actioneer](https://github.com/phase1geo/actioneer) - Tool to automate actions on file changes `#vala` `#gtk3` `#granite`.
 - [Boatswain](https://apps.gnome.org/Boatswain) - Elgato Stream Deck controller `#c` `#gtk4` `#libadwaita` `#gnome`.
-- [StreamController](https://github.com/StreamController/StreamController) - Elgato Stream Deck controller with support for plugins `#python` `#gtk4` `#libadwaita`.
 - [Cigale](https://github.com/emmanueltouzery/cigale) - Timesheet for your activities with support for emails, Git, GitLab and Stack Exchange `#rust` `#gtk3` `#relm`.
 - [Collector](https://mijorus.it/projects/collector) - Dropover utility that allows to drag files/images/text into a collection window and drop them anywhere `#python` `#gtk4` `#libadwaita`.
 - [GNOME Characters](https://apps.gnome.org/Characters) - Emoji picker `#c` `#gtk4` `#libadwaita` `#gnome`.
 - [Morphosis](https://gitlab.gnome.org/World/morphosis) - Document converter (using Pandoc) supporting PDF, Markdown, RST, LaTeX, HTML, Microsoft Word, Open/Libre Office and EPUB formats `#python` `#gtk4` `#libadwaita`. 
 - [Notify](https://github.com/ranfdev/Notify) - Client for ntfy `#rust` `#gtk4` `#libadwaita`.
 - [Random](https://codeberg.org/foreverxml/random) - Randomization made easy with advanced functions `#vala` `#gtk4` `#libadwaita`.
+- [StreamController](https://github.com/StreamController/StreamController) - Elgato Stream Deck controller with support for plugins `#python` `#gtk4` `#libadwaita`.
 - [Szyszka](https://github.com/qarmin/szyszka) - Fast bulk file renamer `#rust` `#gtk4`.
 - [Ticket Booth](https://github.com/aleiepure/ticketbooth) - Application to keep track of TV series/movies with TMDB's API `#python` `#gtk4` `#libadwaita`.
 - [TV Series Renamer](https://github.com/mmstick/tv-renamer) - TV series renaming application that support adding titles to episodes `#rust` `#gtk3`.
@@ -876,6 +856,7 @@ Clients for commercial social platforms that had their API access cut off in a w
 
 - [Convolution](https://gitlab.gnome.org/bazylevnik0/convolution) - Logic game about escaping from a maze `#gjs` `#gtk4` `#libadwaita`.
 - [Crosswords](https://gitlab.gnome.org/jrb/crosswords) - Game of crosswords with squpport for shaped and colors crosswords and `.ipuz`, `.jpuz`, `.xd`, and `.puz` files `#c` `#gtk4` `#libadwaita`.
+- [Flood It!](https://github.com/tfuxu/floodit) - Flood It is a game with the simple premise of flooding the entire board with one color in the least amount of moves possible.
 - [Libellus](https://libellus.hummdudel.de) - Tab-based wiki/Lexicon for DnD 5th edition `#gjs` `#gtk4` `#libadwaita`.
 - [Mahjongg](https://gitlab.gnome.org/GNOME/gnome-mahjongg) - Solitaire (one player) version of the classic Eastern tile game, Mahjongg `#vala` `#gtk4` `#libadwaita` `#gnome` .
 - [Ultimate Tic Tac Toe](https://github.com/Nokse22/ultimate-tic-tac-toe) - [Ultimate Tic Tac Toe](https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe) to play with friends or against an AI `#python` `#gtk4` `#libadwaita`.
