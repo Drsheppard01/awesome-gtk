@@ -603,7 +603,7 @@ Clients for commercial social platforms that had their API access cut off in a w
 
 ### Inventory
 
-- [Jellybean](https://codeberg.org/turtle/jellybean) - Inventory manager with refill functions and a handy low-stock indicator `#vala` `#gtk4` `#libadwaita`.
+- [Stockpile](https://codeberg.org/turtle/stockpile) - Inventory manager with refill functions and a handy low-stock indicator `#vala` `#gtk4` `#libadwaita`.
 
 ## Security and Privacy
 
