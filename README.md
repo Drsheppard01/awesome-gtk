@@ -160,7 +160,7 @@ this list aims to be broader and include apps from various other ecosystems in v
 - [Monophony](https://gitlab.com/zehkira/monophony) - Application for streaming music from YouTube `#python` `#gtk4` `#libadwaita`.
 - [Muzika](https://github.com/vixalien/muzika) - Music player with customizable home screen and Google Music integration `#gjs` `#gtk4` `#libadwaita`.
 - [netease-cloud-music-gtk](https://github.com/gmg137/netease-cloud-music-gtk) - Audio player for the Netease Cloud Music `#rust` `#gtk4` `#libadwaita`.
-- [Recordbox](https://codeberg.org/edestcroix/Recordbox/) - A relatively simple, opinionated music player. Written in Rust so my inefficient code goes just that much faster.
+- [Recordbox](https://codeberg.org/edestcroix/Recordbox) - Music player designed primarily to be as simple as possible `#rust` `#libadwaita`.
 - [Resonance](https://github.com/nate-xyz/resonance) - Music player with MPRIS support, Discord Rich presence and Last.fm scrobbling `#rust` `#python` `#gtk4` `#libadwaita`.
 - [Rhythmbox](https://gitlab.gnome.org/GNOME/rhythmbox) - Music management application designed to work well under the GNOME desktop supporting network shares, podcasts, online radio, portable devices (including iPhones) and internet music services such as Last.fm and Magnatune `#c` `#gtk3`. `#gnome`.
 
