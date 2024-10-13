@@ -32,7 +32,11 @@
   - [ASCII/Pixel Art](#asciipixel-art)
   - [Image Viewers](#image-viewers)
   - [Raster Graphics](#raster-graphics)
-  - [Photography](#photography)
+    - [Converters](#converters)
+    - [Drawing & Editing](#drawing--editing)
+    - [GIF](#GIF)
+    - [Optimizers & Compressors](#optimizers--compressors)
+    - [Photography](#photography)
   - [Technical Graphics](#technical-graphics)
   - [Vector & Fonts](#vector--fonts)
 - [Multimedia](#multimedia)
@@ -284,7 +288,7 @@ this list aims to be broader and include apps from various other ecosystems in v
 - [Gifcurry](https://lettier.github.io/gifcurry) - GIF editor and video-to-GIF converter application `#haskell` `#gtk3`.
 - [Gifup](https://github.com/BharatKalluri/Gifup) - Video-to-GIF converter `#vala` `#gtk3` `#granite`.
 
-#### Optimizers/Compressors
+#### Optimizers & Compressors
 
 - [Curtail](https://apps.gnome.org/Curtail) - Image compressor with support for PNG, JPEG, WebP and SVG images `#python` `#gtk4` `#libadwaita` `#gnome`.
 - [Refract](https://github.com/Blobfolio/refract) - _Guided_ image optimization for JPEGs and PNGs producing WebP, AVIF and JPEG XL clones `#rust` `#gtk3`.
