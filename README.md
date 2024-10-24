@@ -75,6 +75,7 @@
   - [Project Management](#project-management)
   - [Timers / Time Tracking](#timers--time-tracking)
   - [To-do Lists](#to-do-lists)
+  - [Chat Bots and Virtual assistants](#chat-bots-and-virtual-assistants)
   - [Inventory](#inventory)
 - [Security and Privacy](#security-and-privacy)
   - [Password Management](#password-management)
@@ -416,7 +417,6 @@ this list aims to be broader and include apps from various other ecosystems in v
 - [HackUp](https://github.com/mdh34/hackup) - [Hacker News](https://news.ycombinator.com) client `#vala` `#gtk3` `#granite`.
 - [Imaginer](https://github.com/ImaginerApp/Imaginer) - AI image generator (DALL·E 2, Portrait Plus, Stable Diffusion, Custom Provider) interface `#python` `#gtk4` `#libadwaita`.
 - [Lobjur](https://github.com/ranfdev/Lobjur) - [lobste.rs](https://lobste.rs) client `#gjs` `#gtk4` `#libadwaita`.
-- [Newelle](https://github.com/qwersyk/Newelle) - Virtual assistant (based on GPT4All) that interacts with the system by running shell commands and execute Python code `#python` `#gtk4` `#libadwaita`.
 - [Pipeline](https://gitlab.com/schmiddi-on-mobile/pipeline) - YouTube and PeerTube client with offline subscription and playlist features `#rust` `#gtk4` `#libadwaita`.
 - [Tally](https://github.com/cassidyjames/Tally) - Plausible Analytics (Google Analytics alternative) client `#vala` `#gtk4` `#libadwaita`.
 - [Tangram](https://apps.gnome.org/Tangram) - Browser for your pinned tabs `#gjs` `#gtk4` `#libadwaita` `#gnome`.
@@ -584,6 +584,10 @@ this list aims to be broader and include apps from various other ecosystems in v
 ### Inventory
 
 - [Stockpile](https://codeberg.org/turtle/stockpile) - Inventory manager with refill functions and a handy low-stock indicator `#vala` `#gtk4` `#libadwaita`.
+
+### Chat Bots and Virtual assistants
+
+- [Newelle](https://github.com/qwersyk/Newelle) - Virtual assistant (based on GPT4All) that interacts with the system by running shell commands and execute Python code `#python` `#gtk4` `#libadwaita`.
 
 ## Security and Privacy
 
