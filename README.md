@@ -119,6 +119,8 @@
 - [Map Viewers](#map-viewers)
 - [Public Transports](#public-transports)
 - [Weather Viewers](#weather-viewers)
+- [Libraries](#libraries)
+- [GTK bindings](#gtk-bindings)
 
 ## Apps for GNOME
 
@@ -890,3 +892,23 @@ this list aims to be broader and include apps from various other ecosystems in v
 - [Nimbus](https://github.com/danrabbit/nimbus) - Minimal weather applet `#vala` `#gtk4` `#granite`.
 - [Meteo](https://gitlab.com/bitseater/meteo) - Forecast application using OpenWeatherMap API `#vala` `#gtk3`.
 - [Mousam](https://github.com/amit9838/mousam) - Lightweight weather application with dynamically changing gradient-based background according to current weather condition `#python` `#gtk4` `#libadwaita`.
+
+# Libraries
+
+Libraries used by developers to create GTK and LibAdwaita apps.
+
+- [astal](https://aylur.github.io/astal/) - The Linux Suite and Framework to Craft Desktop Shells and beautiful functional Wayland Widgets with GTK
+- [ignis](https://github.com/linkfrg/ignis) - Ignis is a Python framework for building desktop shells using GTK4.
+- [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) - Official library containing GNOME patterns and widgets `#gtk4` `#gnome`.
+- [libbismuth](https://github.com/tau-OS/libbismuth) - Libadwaita's responsive widgets but for tauOS `#gtk4` `#C`.
+- [libhandy](https://gitlab.gnome.org/GNOME/libhandy) - Building blocks for modern adaptive GNOME apps `#gtk3`.
+- [libhelium](https://github.com/tau-OS/libhelium) - The Application Framework for tauOS apps `#gtk4` `#vala`.
+- [owlketlle](https://github.com/can-lehmann/owlkettle) - A declarative user interface framework `#gtk4` `#libadwaita` `#nim`.
+- [relm4](https://relm4.org/) - Library for native GTK applications with Rust `#gtk4` `#rust`.
+
+# GTK bindings
+
+- [gjs](https://gjs.guide/) - GTK library for JavaScript.
+- [gotk4](https://github.com/diamondburned/gotk4) - A GTK4 bindings generator for Go
+- [gtk-rs](https://gtk-rs.org/) - The gtk-rs project provides safe bindings to the Rust language for fundamental libraries from the GNOME stack like GLib, Cairo, and GTK 4.
+- [PyGObject](https://pygobject.gnome.org/) - PyGObject is a Python package which provides bindings for GObject based libraries such as GTK, GStreamer, WebKitGTK, GLib, GIO and many more.
